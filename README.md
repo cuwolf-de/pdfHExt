@@ -1,4 +1,5 @@
 # pdfHExt
+![](imgs/programBehaviour.png)
 #### Usage:
     python pdfHExt.py input output [template]
 
