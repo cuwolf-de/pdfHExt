@@ -1,9 +1,9 @@
 # pdfHExt
-Usage:
+#### Usage:
     python pdfHExt.py input output [template]
 
 
-Parameters:
+#### Parameters:
     input
        being the path/filename to the source pdf
     output
@@ -12,7 +12,7 @@ Parameters:
        being the path/filename for the background
 
 
-What it does:
+#### What it does:
     This program will paste each page of the pdf-file 'input'
     onto a larger sized page called template.
     If no template is given, then a default tempalte is used.
