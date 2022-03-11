@@ -20,3 +20,9 @@
     side of each page, so you have enough space on the right to
     annotate each page with your desired hand writing program
     like Xournal, Xournal++, GoodNotes, etc.
+
+#### Dependencies:
+This program uses the following python libraries:
+  - sys  (should be installed with python per default)
+  - os   (should be installed with python per default)
+  - pdfrw  (use 'pip install pdfrw' to install this library)
