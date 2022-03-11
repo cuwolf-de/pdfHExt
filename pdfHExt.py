@@ -1,6 +1,14 @@
 # DEPENDENCYS: You need to install pdfrw via:  pip install pdfrw
 
 # import pdfrw
+
+def print_Dependencies():
+    print("Dependencies:")
+    print("  This program uses the following python libraries:")
+    print("    - sys  (should be installed with python per default)")
+    print("    - os   (should be installed with python per default)")
+    print("    - pdfrw  (use 'pip install pdfrw' to install this library)")
+
 try:
     import sys
     import os
@@ -10,10 +18,8 @@ except:
     print("")
     print("")
     print("ERROR : Please install the required dependencies first!")
-    print("This program uses the following python libraries:")
-    print("  - sys  (should be installed with python per default)")
-    print("  - os   (should be installed with python per default)")
-    print("  - pdfrw  (use 'pip install pdfrw' to install this library)")
+    print("")
+    print_Dependencies()
     print("")
     print("")
     print("------------------------------------------------------------------")
@@ -38,6 +44,7 @@ if len(sys.argv) < 3 or len(sys.argv) > 4:
     print("    side of each page, so you have enough space on the right to")
     print("    annotate each page with your desired hand writing program")
     print("    like Xournal, Xournal++, GoodNotes, etc.")
+    print_Dependencies()
     print("------------------------------------------------------------------")
     sys.exit(0)
 
